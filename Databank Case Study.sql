@@ -290,7 +290,7 @@ select sum(case when (0+Jan)/2>0 then(0+Jan)/2 else 0 end) as Feb_allocation,
 from s4;
 #Total data allocated for Feb, Mar and Apr=587393
 
-########################################Option3#########################################
+#Option 3
 #data is updated real-time
 #data allocated equals the maximum value of running balance for each customer
 with s1 as(
